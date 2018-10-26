@@ -24,6 +24,8 @@ const debug = require('debug')(`${app_name}:${path.basename(__filename).split('.
 
 const app = express();
 
+hbs.registerPartials(__dirname + '/views/partials')
+
 // Middleware Setup
 app.use(logger('dev'));
 app.use(bodyParser.json());
@@ -41,18 +43,23 @@ app.use(require('node-sass-middleware')({
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
+app.use(express.static(__dirname + '/public'));
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static('views/images')); 
 app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')));
 
 
 
 // default value for title local
-app.locals.title = 'Express - Generated with IronGenerator';
+app.locals.title = 'Proyecto Steren';
 
 
 
 const index = require('./routes/index');
 app.use('/', index);
 
+app.listen(3000, ()=>{
+  console.log('Running on 3000')
+});
 
 module.exports = app;

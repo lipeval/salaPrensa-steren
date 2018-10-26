@@ -1,2 +1,72 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+<body>
+    {{> header}}
+  
+ <section>
+    <div class="carousel slide" data-ride="carousel" style="width: 90%; display:flex; position: relative">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="w-100" src="/images/1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="w-100" src="/images/2.jpg" alt="Second slide" >
+        </div>
+        <div class="carousel-item">
+            <img class="w-100" src="/images/3.jpg" alt="Third slide">
+        </div>
+        </div>
+    <div  id="sect" class="contain">
+        <img src="/images/Steren Escazu_Costa Rica.jpg" alt="steren escazu" width="400px" height="240px" style="padding: 5px;">
+<br>
+        <img src="/images/CAM-610x1.jpg" alt="camara" width="400px" height="240px" style="padding: 5px;">
+    </div>
+    </div>
+
+</section>
+
+<div>
+    <h4 style="padding-top:30px">Lo mas reciente</h4>
+</div>
+<section class="sect2">
+<div class="card" style="width: 440px; height: 520px">
+        <img class="card-img-top" src="/images/pexels.jpeg" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">Linea de audifonos Steren</h5>
+        <p class="card-text">Hoy en día hay una gran variedad de audífonos disponibles, desde los más discretos que se colocan dentro de la oreja hasta los más grandes que la cubren por completo, sin cables o con ellos, sea cual sea tu elección Steren ofrece una amplia…</p>
+        <p style="font-size: 14px">Audio e Iluminación  /   Ciudad de México, mayo de 2018</p>
+    </div>
+</div>
+<div class="card" style="width: 440px; height: 520px">
+  <img class="card-img-top" src="/images/pexels.jpeg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Cámara robotizada CCTV-212 y sensores</h5>
+    <p class="card-text">La cámara robotizada que te ofrece la tranquilidad que necesitas.  ¿Cuántas veces no has llegado a casa y te das cuenta de que tu mascota destrozó la piel del sillón de la sala, hurgó en los cajones de tu clóset o se comió uno de tus zapatos?…</p>
+    <p style="font-size: 14px">Camáras y video  /   Ciudad de México, mayo de 2018</p>
+  </div>
+</div>
+<div class="card" style="width: 440px; height: 520px">
+  <img class="card-img-top" src="/images/pexels.jpeg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">TV abierta HD en tu celular ¡Sin usar datos ni Internet!</h5>
+    <p class="card-text">Steren presenta el Mobile Tuner y Smart Tuner, los sintonizadores de televisión para recibir la señal abierta HD directo en tu celular, Tablet o computadora sin necesidad de usar datos móviles o estar conectado a una red Wi-Fi </p>
+    <p style="font-size: 14px">Boletín de prensa  /   Ciudad de México, mayo de 2018</p>
+  </div>
+</div>
+</section>
+
+
+  
+</body>
+</html>
+

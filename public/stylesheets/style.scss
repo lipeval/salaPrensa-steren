@@ -1,8 +1,156 @@
+
 body {
-  padding: 50px;
+  padding: 50px 50px 50px 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+
+.nav-item{
+  font-size: 13px;
 }
+
+.sesion{
+  font-size: 13px;
+  text-align: right;
+  // padding-bottom: 25px;
+  margin-right: 130px;
+  margin-top: 20px;
+
+
+
+}
+
+.head{
+  display:flex;
+  justify-content: space-between;
+
+}
+
+.form-cont {
+  line-height: 0.5;
+  margin-left: 370px;
+  max-width: 45%
+}
+
+.contain{
+  margin-top: 0px;
+  display: flex;
+  float: right;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+// #img1{
+//   margin-top: 20px;
+// }
+
+.w-100{
+  width: 100%
+
+}
+
+#sect{
+  margin-right: 0;
+  padding-left: 10px;
+
+}
+
+.sect2{
+  margin-top:50px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  background: #F7F7F7
+}
+
+.card-img-top{
+  width: 440px;
+  height: 240px
+}
+
+
+.footer {
+  display: flex;
+  justify-content: baseline;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+ul > li{
+  padding-left: 35px;
+}
+
+#text{
+  color:gray;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.card-text{
+  font-size: 14px;
+  padding-top: 10px;
+  margin-top: 30px
+
+}
+
+.card-title{
+  font-size: 24px;
+
+}
+
+.art{
+  margin: 0 auto;
+  text-align: left;
+  max-width: 40%;
+  color: #858585
+}
+
+.sect3{
+  background-color: white;
+    width: 200px;
+    height: 200px;
+    border: 3px solid lightgray;
+    padding: 25px;
+}
+
+#sect3{
+  display: flex;
+  justify-content: space-between
+}
+
+img.sect3{
+  margin-left: 120px;
+  padding: 0;
+  margin-top: 50px
+}
+
+
+//  .item{
+//   float: left;
+
+// }
