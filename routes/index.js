@@ -10,6 +10,10 @@ router.get('/', (req, res, next) => {
 
 router.get('/empresa', (req, res, next)=> {
   res.render('empresa');
+});
+
+router.get('/empresa/sterensinfronteras', (req, res, next) => {
+  res.render('partners');
 })
 
 module.exports = router;

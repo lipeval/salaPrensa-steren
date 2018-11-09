@@ -15,9 +15,13 @@ body {
   display: flex;
   justify-content: space-between; }
 
+input.form-control {
+  width: 57%;
+  font-size: 10px; }
+
 .form-cont {
   line-height: 0.5;
-  margin-left: 370px;
+  margin-left: 400px;
   max-width: 45%; }
 
 .contain {
@@ -35,11 +39,12 @@ body {
   padding-left: 10px; }
 
 .sect2 {
-  margin-top: 50px;
+  margin-top: 30px;
   padding-top: 50px;
   display: flex;
   justify-content: space-evenly;
-  background: #F7F7F7; }
+  background: #F7F7F7;
+  padding-bottom: 100px; }
 
 .card-img-top {
   width: 440px;
@@ -110,5 +115,19 @@ img.sect3 {
   margin-left: 120px;
   padding: 0;
   margin-top: 50px; }
+
+.flexmaqueta {
+  display: flex; }
+
+.flexy {
+  max-width: 700px; }
+
+#flexy2 {
+  margin-left: 20px;
+  flex-wrap: wrap; }
+
+.flexy2 {
+  display: flex;
+  flex-direction: row; }
 
 /*# sourceMappingURL=style.css.map */
